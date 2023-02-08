@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+
+  "name": "PL Grade Changer",
+  "version": "0.1.0",
+  "description": "FXXK CS411",
+
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": ["https://us.prairielearn.com/*"]
+    }
+  ]
+}
